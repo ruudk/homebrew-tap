@@ -5,28 +5,28 @@
 class Tailbox < Formula
   desc ""
   homepage ""
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ruudk/tailbox/releases/download/v0.0.5/tailbox_0.0.5_darwin_amd64.tar.gz"
-      sha256 "8e4250444002b2742faa84d96d4eb855ebf814080d49171b46e6ab0922cd1566"
+      url "https://github.com/ruudk/tailbox/releases/download/v0.0.6/tailbox_0.0.6_darwin_amd64.tar.gz"
+      sha256 "99fc4c33e230c760b22e45425e237000ecb1bb47e431b45a704bd138e4f223d3"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ruudk/tailbox/releases/download/v0.0.5/tailbox_0.0.5_darwin_arm64.tar.gz"
-      sha256 "9df317b7fec356773c1f93f2c30bca67ecde3a21c8c0c99fccbb0f81f2deb779"
+      url "https://github.com/ruudk/tailbox/releases/download/v0.0.6/tailbox_0.0.6_darwin_arm64.tar.gz"
+      sha256 "6e3d39f77b93449f546c9938d5a76dfe427731d65bc007dddf58122c8b8d2420"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ruudk/tailbox/releases/download/v0.0.5/tailbox_0.0.5_linux_amd64.tar.gz"
-      sha256 "b4dc43b94316a42b53f46a93f816b95624e49e1c2ce1ef6fa738b90e378256e1"
+      url "https://github.com/ruudk/tailbox/releases/download/v0.0.6/tailbox_0.0.6_linux_amd64.tar.gz"
+      sha256 "9c973f5634f95ffcc7723b7dc669d3fe70a20bd5e5c61d8299bc7a7345af8715"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ruudk/tailbox/releases/download/v0.0.5/tailbox_0.0.5_linux_arm64.tar.gz"
-      sha256 "9b667ef4e5824aab6d60bec2eef1846b9c0c04f84edfbeec23811bff6fdfbc9c"
+      url "https://github.com/ruudk/tailbox/releases/download/v0.0.6/tailbox_0.0.6_linux_arm64.tar.gz"
+      sha256 "b26f6a853d0180cbf6d28cfc47446eb3df37df2c22208953df4d6c9e2c1362eb"
     end
   end
 
