@@ -6,7 +6,6 @@ class Tailbox < Formula
   desc ""
   homepage ""
   version "0.0.11"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
